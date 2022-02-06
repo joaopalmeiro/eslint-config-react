@@ -40,6 +40,7 @@
     },
     "scripts": {
         "find-new-rules": "eslint-find-rules --unused ./index.js",
-        "check-current-rules": "eslint-find-rules --current ./index.js"
+        "check-current-rules": "eslint-find-rules --current ./index.js",
+        "check-config": "eslint --print-config .eslintrc.js"
     }
 }
