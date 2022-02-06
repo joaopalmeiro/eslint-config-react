@@ -20,3 +20,7 @@ My personal [ESLint](https://eslint.org/) config for [React](https://reactjs.org
 
 - `npm version minor` or `npm version patch` or `npm version major`.
 - `git push --follow-tags`.
+
+## Notes
+
+- `npm install --save-peer eslint prettier eslint-config-prettier eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-plugin-import`.

@@ -23,7 +23,10 @@ module.exports = {
   rules: {
     eqeqeq: "error",
     "no-else-return": "error",
-    "no-console": "warn",
+    "no-console": "error",
+    "array-callback-return": ["error", { checkForEach: true }],
+    // TODO
+    // https://github.com/prettier/eslint-config-prettier#no-mixed-operators
     "import/order": [
       "warn",
       {
