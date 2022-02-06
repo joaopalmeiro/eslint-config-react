@@ -1,0 +1,27 @@
+{
+  "name": "@joaopalmeiro/eslint-config-react",
+  "version": "0.0.1",
+  "description": "My personal ESLint config for React projects.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaopalmeiro/eslint-config-react.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslintrc",
+    "react",
+    "config"
+  ],
+  "author": "João Palmeiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joaopalmeiro/eslint-config-react/issues"
+  },
+  "homepage": "https://github.com/joaopalmeiro/eslint-config-react#readme",
+  "volta": {
+    "node": "16.13.2",
+    "npm": "8.1.2"
+  }
+}
