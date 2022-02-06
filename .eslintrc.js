@@ -4,6 +4,7 @@ module.exports = {
         es2021: true,
         node: true
     },
+
     extends: [
         'eslint:recommended',
         'plugin:import/recommended',
@@ -13,6 +14,7 @@ module.exports = {
         'plugin:jsx-a11y/recommended',
         'plugin:prettier/recommended'
     ],
+
     parserOptions: {
         ecmaFeatures: {
             jsx: true
@@ -20,6 +22,7 @@ module.exports = {
         ecmaVersion: 2021,
         sourceType: 'module'
     },
+
     rules: {
         'array-callback-return': [
             'error',
@@ -160,6 +163,7 @@ module.exports = {
         'symbol-description': 'error',
         yoda: ['error', 'never']
     },
+
     settings: {
         'import/resolver': {
             // https://github.com/import-js/eslint-plugin-import#settings
