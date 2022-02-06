@@ -2,6 +2,7 @@
     "recommendations": [
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
-        "zengxingxin.sort-js-object-keys"
+        "zengxingxin.sort-js-object-keys",
+        "redhat.vscode-yaml"
     ]
 }
