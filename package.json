@@ -35,6 +35,11 @@
         "prettier": "^2.5.1"
     },
     "devDependencies": {
-        "@joaopalmeiro/prettier-config": "^0.1.1"
+        "@joaopalmeiro/prettier-config": "^0.1.1",
+        "eslint-find-rules": "^4.1.0"
+    },
+    "scripts": {
+        "find-new-rules": "eslint-find-rules --unused ./index.js",
+        "check-current-rules": "eslint-find-rules --current ./index.js"
     }
 }

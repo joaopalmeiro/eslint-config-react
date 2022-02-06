@@ -24,3 +24,4 @@ My personal [ESLint](https://eslint.org/) config for [React](https://reactjs.org
 ## Notes
 
 - `npm install --save-peer eslint prettier eslint-config-prettier eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-jsx-a11y eslint-plugin-import`.
+- [eslint-find-rules](https://www.npmjs.com/package/eslint-find-rules).
